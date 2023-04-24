@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: collision
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"1c94feae-a42a-46da-8213-09811ca6d5be","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":true,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"577353f9-0d2d-414d-91b2-d732371fcdb4","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"parameterNames":["colliders"],"member":{"name":"GetContacts","parameterTypes":["UnityEngine.Collider2D[]"],"targetType":"UnityEngine.BoxCollider2D","targetTypeName":"UnityEngine.BoxCollider2D","$version":"A"},"defaultValues":{"target":null},"position":{"x":106.0,"y":-141.0},"guid":"58a83f38-fd5c-437e-aa75-5123d678cb93","$version":"A","$type":"Unity.VisualScripting.InvokeMember"},{"chainable":false,"parameterNames":["contactFilter","colliders"],"member":{"name":"GetContacts","parameterTypes":["UnityEngine.ContactFilter2D","UnityEngine.Collider2D[]"],"targetType":"UnityEngine.BoxCollider2D","targetTypeName":"UnityEngine.BoxCollider2D","$version":"A"},"defaultValues":{"target":null},"position":{"x":526.0,"y":60.0},"guid":"485a5451-aedb-4d9c-b78b-2acf98844af9","$version":"A","$type":"Unity.VisualScripting.InvokeMember"},{"chainable":false,"parameterNames":["contactFilter"],"member":{"name":"IsTouching","parameterTypes":["UnityEngine.ContactFilter2D"],"targetType":"UnityEngine.BoxCollider2D","targetTypeName":"UnityEngine.BoxCollider2D","$version":"A"},"defaultValues":{"target":null},"position":{"x":429.0,"y":-184.0},"guid":"c2e75232-99a7-4113-a245-809d5a5d9118","$version":"A","$type":"Unity.VisualScripting.InvokeMember"},{"chainable":false,"parameterNames":["contactFilter"],"member":{"name":"IsTouching","parameterTypes":["UnityEngine.ContactFilter2D"],"targetType":"UnityEngine.BoxCollider2D","targetTypeName":"UnityEngine.BoxCollider2D","$version":"A"},"defaultValues":{"target":null},"position":{"x":296.0,"y":101.0},"guid":"38d17e84-847e-483e-a329-3655a818805a","$version":"A","$type":"Unity.VisualScripting.InvokeMember"}],"$version":"A"}}'
+    _objectReferences: []
